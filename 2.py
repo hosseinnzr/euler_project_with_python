@@ -12,4 +12,5 @@ for i in range(1, 10000000):
             sum += x
     else : 
         break
+    
 print(sum)
