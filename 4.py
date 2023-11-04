@@ -20,6 +20,7 @@ def test(num):
             return 0
 
 max = 0
+
 for i in range(100 , 1000):
     for j in range(100, 1000):
         result = i * j
