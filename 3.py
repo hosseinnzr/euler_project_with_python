@@ -13,4 +13,5 @@ def prime_factors(n):
         if n % i == 0 and avall(i):
             print (i)
 
+
 prime_factors (600851475143)
