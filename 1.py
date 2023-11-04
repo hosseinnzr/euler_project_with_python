@@ -9,4 +9,5 @@ for i in range(1, 1000):
     if i % 15 == 0 : 
         x += i
 sum = three + five - x
+
 print(sum)
