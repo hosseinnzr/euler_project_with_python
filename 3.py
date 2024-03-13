@@ -1,17 +1,12 @@
-def avall(m):
-    j=0
-    for i in range(1, m+1):
-        if m % i == 0 :
-            j += 1
-    if j == 2 :
-        return True
-    else:
-        return False  
+def largest_prime_factor(n):
+    i = 2
+    while i * i <= n:
+        if n % i:
+            i += 1
+        else:
+            n //= i
+    return n
 
-def prime_factors(n):
-    for i in range(1, n+1):
-        if n % i == 0 and avall(i):
-            print (i)
-
-
-prime_factors (600851475143)
+number = 600851475143
+result = largest_prime_factor(number)
+print("The largest prime factor of", number, "is:", result)
