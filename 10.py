@@ -1,3 +1,4 @@
+# number one solution 
 def sumPrimes(n):
     sum, sieve = 0, [True] * n
     for p in range(2, n):
@@ -9,11 +10,8 @@ def sumPrimes(n):
 
 print (sumPrimes(2000000))
 
-#142913828922
 
-#تان هاش
-
-#برنامه دوم
+# number two solution 
 def prime(num):
     for i in range(2, int(num ** 0.5) + 1):
         #print(i)
@@ -30,18 +28,4 @@ for i in range(3, 2000000,2):
 print(result)
 
 
-
-#sum = 0
-#ar = [2]
-#for i in range(1 , 2000000):
-#   # print(sum)
-#    test= True
-#    for j in range(0, i+1):
-#        #print(ar[j])
-#        print(j)
-#        if i % ar[j] == 0 :
-#            test = False
-#    if test :
-#        ar.append(i)
-#        sum += i
-#
+#142913828922
